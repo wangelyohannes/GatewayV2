@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta data is used on the titlento run search engines on the browser -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- fontawesome link here is the style for the css  -->
+    <!-- <link rel="stylesheet" href="fontawesome-free-5.15.3-web/css/all.min.css"> -->
+    
+    <!-- style link here -->
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+<!-- hero img and background, also has navbar which has the icons -->
+    <header class="header">
+        <div class="logo">
+            <img src="img/logo.png" alt="">
+        </div>
+
+        <nav class="navbar">
+            <a href="#">home</a>
+            <a href="#menuSection">our menu</a>
+            <a href="#contactUs">contact</a>
+        </nav>
+
+        <div class=contactBotton>
+            <i class="fa-solid fa-bird"></i>
+            <a class="contact-btn" href="#contactUs">contact</a>
+        </div>
+
+    </header>
+
+    <!-- contains my hover img and my H1 & P text -->
+    <div class="home">
+        
+        <div class="main-home">
+            <div class="home-inner-content">
+                <div class="home-image">
+                <!-- <img src="img/IMG_8361-removebg-preview.png" alt=""> -->
+                </div>
+            </div>
+
+            <div class="home-inner-content">
+                <div class="home-text-content">
+                <h1>Welcome To Le Vesuvio.</h1>
+                <p>welcome this is an family orientated Italian restaurant located in uptown Charlotte, The establishment is based off of the classic TV show the Sopranos. We have took in many dishes from the show and improved on them. we can’t wait for you to try Le vesuvio.</p>
+                <a href="#contactUs">contact</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+<!-- this displays my menu and all added elements -->
+
+<!-- first create section for our main menu to be held -->
+    <div class="menuSection" id="menuSection">
+        <h1>our menu</h1>
+
+<!-- 
+        our actual food items will be contained inside the main-menu -->
+        <div class="mainMenu">
+
+            <!-- each indivudal food item will be contained in a car we will later style  -->
+            <div class="menuContainer">
+
+            <!-- create a divide between the car in order to equally display food and discription -->
+                <div class="menuItem">
+                    <img class="imgShape" src="img/IMG_9563_2000x2000.jpeg" alt="">
+<!-- 
+                create a section to make food description -->
+                    <div class="foodInfo">
+                        <h2>SPICY RIGATONI VODKA</h2>
+                        <p> italian sausage, crispy pancetta, shaved garlic, basil, padano.</p>
+                        <p> <span>Price / $21</span> </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menuContainer">
+                <div class="menuItem">
+                    <img class="imgShape" src="img/north-italia-3_2000x2000.jpeg" alt="">
+
+                    <div class="foodInfo">
+                        <h2>FUNGHI</h2>
+                        <p> roasted mushroom, cipollini, shaved garlic, mozzarella, Sea Salt.</p>
+                        <p> <span>Price / $18</span> </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menuContainer">
+                <div class="menuItem">
+                    <img class="imgShape" src="img/208852_vIGAbZhKHkrB3MumA-BnvqS8Kt1e2U-SreSCvrEECOM_1_2000x2000.jpeg" alt="">
+
+                    <div class="foodInfo">
+                        <h2>TRUFFLE GARLIC BREAD</h2>
+                        <p>house made ricotta, mozzarella, shaved garlic,  padano, herbs.</p>
+                        <p> <span>Price / $14</span> </p>
+                    </div>
+                </div>
+            </div>
+       
+            <div class="menuContainer">
+                <div class="menuItem">
+                    <img class="imgShape" src="img/Caprese-Sandwich1800x1800.jpeg" alt="">
+
+                    <div class="foodInfo">
+                        <h2>CAPRESE SANDWICH</h2>
+                        <p>herb roasted tomato, stracciatella, torn basil, arugula, house pesto.</p>
+                        <p> <span>Price / $15</span> </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menuContainer">
+                <div class="menuItem">
+                    <img  class="imgShape" src="img/enlight4976_original_1800x1800.webp" alt="">
+
+                    <div class="foodInfo"> 
+                        <h2>CHICKEN PARMESAN</h2>
+                        <p>crushed tomato, aged provolone, smoked mozzarella, parmesan rigatoni.</p>
+                        <p> <span>Price / $22</span> </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menuContainer">
+                <div class="menuItem">
+                    <img class="imgShape" src="img/50062709476_8d53506329_k_2000x2000.jpeg" alt="">
+
+                    <div class="foodInfo">
+                        <h2>CAESAR WITH SALMON</h2>
+                        <p>butternut squash, cauliflower, radicchio, pistachio, balsamic vinaigrette.</p>
+                        <p> <span>Price / $18</span> </p>
+                    </div>
+                </div>
+            </div>
+       
+        </div>
+    </div>
+
+
+    <div class="contactUs" id="contactUs">
+        
+        <div class="contact-box">
+            <div class="leftSideContactForm">
+                <h3>Contact us</h3>
+                <form>
+                    
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Name</label>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="input-group">
+                            <label>Phone</label>
+                            <input type="text" placeholder="Phone Number">
+                        </div>
+                        
+                    </div>
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label>Email</label>
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="input-group">
+                            <label>Subject</label>
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        
+                    </div>
+                    
+                    <label>Message</label>
+                    <textarea rows="5" placeholder="Your Message"></textarea>
+                    
+                    <button type="submit">SEND</button>
+                </form>
+            </div>
+            <div class="rightSideContactForm">
+                <h3>Reach Us</h3>
+                
+                <table>
+                    <tr>
+                        <td>Email</td>
+                        <td>LeVesuvio@gmail.com</td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>+1 704 111 5555</td>
+                    </tr>
+                    <tr>
+                        <td>Address</td>
+                        <td>#1600 Main Road Street, Charlotte, NC, 28251
+                        </td>
+                    </tr>
+                    
+                </table>
+                
+                
+            </div>
+        </div>
+
+     </div>
+    <!-- footer that has the logo aswell as navbar info -->
+        <div class="footer">
+            <div class="main-footer">
+                <div class="footer-logo"><img src="img/logo.png" alt=""></div>
+            </div>
+    
+            <footer class="footer-navbar">
+                <a href="#">home</a>
+                <a href="#menuSection">our menu</a>
+            <a href="#contactUs">contact</a>
+            <span>
+                <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                <a href="https://twitter.com/?lang=en" class="fa fa-twitter"></a>
+                <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                <a href="https://www.snapchat.com/en-US" class="fa fa-snapchat"></a>
+            </span>
+
+            </footer>
+    
+        </div>
+    
