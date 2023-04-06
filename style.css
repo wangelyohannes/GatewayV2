@@ -450,7 +450,7 @@ tr td{
       width: 50px;
     }
     .navbar {
-      display: none;
+        font-size: 1.3rem
     }
     .contactBotton div i {
       display: inline;
